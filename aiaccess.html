@@ -2,45 +2,67 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<!-- <link rel="stylesheet" href="style.css"> -->
-body {
-	width: 9in ;
-	height: 11.5in;
-	margin: auto ;
-}
-
-h1 {
-  background: darkseagreen;
-  color: white;
-}
-
-h2 {
-  margin:0;
-  padding:0;
-  color: seagreen;
-}
-
-h3 {
-  margin:0;
-  padding:0;
-}
-
-h4 {
-  margin:0;
-  padding:0;
-  color: gray;
-}
-
-b {
-  font-style: bold;
-}
+<link rel="stylesheet" href="style.css">
 
 <!-- head, h1, body, p, br -->
 
+<style>
+  h1 {
+    background: darkseagreen;
+    color: white;
+  }
+
+  h2 {
+    margin:0;
+    padding:0;
+    color: seagreen;
+  }
+
+  p {
+    margin:0;
+    padding:0;
+  }
+  
+ .dark-mode { 
+     background: #282828; 
+     color: #00897b; 
+ }
+
+  .h1-dark-mode{
+    background: #00564d;
+    color: #969696;
+  }
+
+</style>
+
+<script>
+  function toggler() {
+	document.body.classList.toggle("dark-mode");	   
+  document.h1.classList.toggle("h1-dark-mode");
+  }
+</script>
+
 <body>
+  <!-- <p class="dark-mode">This page is just a demo.</p> -->
+  <button onclick="toggler()" style="background:white; color:black; font; font-size:12px">dark mode</button>
+  
   <h1>
     AI ISSUES
   </h1>
+
+  <h2>
+    Main Article
+  </h2>
+
+  <p>
+    - AI allowing for neurodivergent accessibility is extremely promising, especially pertaining to academic environments. The organization of school systems has long catered to select learning styles, despite the vast amounts of variation in the ways humans process information.
+  <br>
+    - InnerVoice in particular has the potential to create a considerably more equitable manner of accessing knowledge. As a phone app, it offers a fair amound of convenience, and offers crucial support for those in early stages of development and beyond. 
+  </p>
+
+  <h2>
+    Article
+  </h2>
 
   <p>
     just checking
