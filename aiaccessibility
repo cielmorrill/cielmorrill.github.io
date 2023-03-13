@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<!-- head, h1, body, p, br -->
+
+<style>
+  h1 {
+    background: darkseagreen;
+    color: white;
+  }
+
+  h2 {
+    margin:0;
+    padding:0;
+    color: seagreen;
+  }
+
+  p {
+    margin:0;
+    padding:0;
+  }
+  
+ .dark-mode { 
+     background: #282828; 
+     color: #00897b; 
+ }
+
+  .h1-dark-mode{
+    background: #00564d;
+    color: #969696;
+  }
+
+</style>
+
+<script>
+  function toggler() {
+	document.body.classList.toggle("dark-mode");	   
+  document.h1.classList.toggle("h1-dark-mode");
+  }
+</script>
+
+<body>
+  <!-- <p class="dark-mode">This page is just a demo.</p> -->
+  <button onclick="toggler()" style="background:white; color:black; font; font-size:12px">dark mode</button>
+  
+  <h1>
+    AI AND ACCESSIBILITY
+  </h1>
+
+  <h2>
+    Main Article
+  </h2>
+
+  <p>
+    <i>How AI is improving accessibility</i> addresses many of the challenges many neurodiverse individuals face, and the way technology is able to create more equitable situations (Boorgu, 2021). However, as it specifically addresses the non-neurotypical community, it ignores a considerable amount of other ways AI is affecting accessibility in today's day and age, including those with disabilities and those without.
+    <br><br>
+    For example, AI has been used to assist those who are visually impaired. Multiple brands of cellphone have incorporated technology that audibly reads through text on the screen (Wagner, 2022). Voice assistants such as Siri and Cortana allow for easier navigation and command of devices. Microsoft's <i>Seeing AI</i> and Google's <i>Lookout</i> can not only read out documents placed under the phone camera, but also detect light, colors, faces, and other images. 
+    <br><br>
+    Machine learning has long been used by corporations to provide personalized advertisements, and anticipate customer needs. However, this same targeted technology is also what allows for increased access to education (Martinez, 2022). Search result predictions and automatic article parsing allow search engines to connect people and information in mere milliseconds.
+    <br><br>
+    AI is even equipped with the capability to break down language barriers, through live translation. This extends to those who are hearing impaired, with the invention of live speech captioning (Martinez, 2022). Communication is an absolutely crucial aspect of modern life, especially with the curated culture of constant connection credited to the digital age. Anyone barred from easy access is left with a distinct disadvantage; however, AI offers a way to bridge these gaps.
+  </p>
+
+  <br>
+
+  <h2>
+    Sources
+  </h2>
+
+  <p>
+    Boorgu, M. (2021, July 13). <i>How AI is improving accessibility.</i> Medium. Retrieved March 13, 2023, from <a href="https://medium.com/the-neuro/how-ai-is-improving-accessibility-510f6c70177c">https://medium.com/the-neuro/how-ai-is-improving-accessibility-510f6c70177c</a> 
+<br><br>
+    Martinez, C. (2022, January 24). <i>Artificial intelligence enhances accessibility for people with disabilities.</i> Inclusive City Maker. Retrieved March 13, 2023, from <a href="https://www.inclusivecitymaker.com/artificial-intelligence-accessibility-examples-technology-serves-people-disabilities/">https://www.inclusivecitymaker.com/artificial-intelligence-accessibility-examples-technology-serves-people-disabilities/</a>
+<br><br>
+    Wagner, L. (2022, July 5). <i>The smartphone: A revolution for blind and visually impaired people!</i> Inclusive City Maker. Retrieved March 13, 2023, from <a href="https://www.inclusivecitymaker.com/the-smartphone-a-revolution-for-the-blind-and-visually-impaired/">https://www.inclusivecitymaker.com/the-smartphone-a-revolution-for-the-blind-and-visually-impaired/</a>
+  </p>
+
+</body>
+<html>
