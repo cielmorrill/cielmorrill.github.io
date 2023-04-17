@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<!-- head, h1, body, p, br -->
+
+<style>
+  h1 {
+    background: #011936;
+    color: #ED254E;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    color: seagreen;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dark-mode {
+    background: #282828;
+    color: #00897b;
+  }
+
+  .party-mode {
+    background: #4C2A85;
+    color: #BCEDF6;
+
+    h1 {
+      background: #320E3B;
+      color: #DDFBD2
+    }
+  }
+
+  .up-party-mode {
+    background: #465362;
+    color: #F9DC5C;
+
+    h1 {
+      background: darkseagreen;
+      color: white;
+    }
+
+    < !-- ideally bold would be white but this doesn't work anyways -->
+
+  }
+
+  .h1-party-mode {
+    h1 {
+      background: #4C2A85;
+      color: #BCEDF6
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('keydown', keybind);
+
+  function keybind() {
+    const key = event.key;
+
+    switch (event.key) {
+      case " ":
+        document.body.classList.toggle("party-mode");
+        document.h1.classList.ggle("h1-party-mode");
+        return;
+      case "ArrowUp":
+        document.body.classList.toggle("up-party-mode");
+        document.h1.classList.le("h1-party-mode");
+        return;
+    }
+  }
+
+  function toggler() {
+    document.body.classList.toggle("dark-mode");
+    document.h1.classList.toggle("h1-dark-mode");
+  }
+
+</script>
+
+<body>
+
+  <body onload="draw();">
+
+    <!-- <p class="dark-mode">This page is just a demo.</p> -->
+    <button onclick="toggler()" style="background:white; color:black; font; font-size:12px">dark mode</button>
+
+    <h1>
+      Facebook and Discrimination
+    </h1>
+
+    <p>
+      This isn't the first time that Facebook has been accused or taken to court due to charges of discrimination - though I don't think the fair housing act has ever been brought up. Addtionally, as per the DoJ article, "This settlement marks the first time that Meta will be subject to court oversight for its ad targeting and delivery system". This is also the first time Facebook will actually change its ad delivery system, which says something, seeing as it's been operating since 2004.
+    </p>
+    <br>
+    <p>
+      "When a company develops and deploys technology that deprives users of housing opportunities based in whole or in part on protected characteristics, it has violated the Fair Housing Act, just as when companies engage in discriminatory advertising using more traditional advertising methods". If I'm understanding this correctly, this is saying that the way Facebook chooses which houses to offer is discriminatory, because it blocks people from seeing houses that may be better fits for them in favor of what it thinks will be most appealing according to immmutable characteristics. I believe that later descriptions support this interpretation.
+    </p>
+    <br>
+    <p>
+      A civil penalty of $115,054 means nothing to a corporation as big as Meta. It hardly even seems like a dent to them. Do they deserve more than a slap on the wrist for these actions? I don't know, though I will admit to being biased against them. There's a part of me that wants them to be held accountable to a more severe degree to account for past misdeeds.
+    </p>
+    <br>
+    <p>
+      "HUD also alleges Facebook allowed advertisers certain tools on their advertising platform that could exclude people who were classified as "non-American-born," "non-Christian" or "interested in Hispanic culture," [and] ZIP code, essentially 'drawing a red line around those neighborhoods on a map'. This brings more clarification. It's not just that Facebook is catering their ads - they're giving advertisors the power to discriminate as they please, in the name of "better targeting".
+    </p>
+    <p>
+      "'While we were eager to find a solution,' Facebook added. 'HUD insisted on access to sensitive information — like user data — without adequate safeguards. We're disappointed by today's developments, but we'll continue working with civil rights experts on these issues.'". This is gross. Obviously they're going to twist things in their favor, and - like I said previously - I'm biased against Facebook. But this statement still doesn't sit right.
+    </p>
+    <br>
+    <p style="color:#6B7FD7">
+      <b>This happened in 2022, but I'm glad that some action was taken to fix this situation. I'm not sure how things stand at the moment - AI and machine learning is more widespread, and I'm sure they've been implemented by all big companies with a social media presence, at least to some extent. As per usual, it doesn't seem like Facebook incurred many damages from this event, though I'm curious to know how long this went on, and how many people it ended up affecting in a large way. </b>
+    </p>
+    <br>
+    <p>
+      Press <i>space</i> or the <i>up arrow</i> key to toggle.
+    </p>
+    <br>
+    <p style="color:#FFFFFF">
+      Secret message!!!
+      Calvin's social security number is 564 600 4342
+    </p>
+
+  </body>
+  <html>
